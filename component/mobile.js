@@ -152,11 +152,13 @@ const Mobile = () => {
                     <input type="name" value={phone} onChange={e => setPhone(e.target.value)} className={classes.input} placeholder="phone"/>
                 </Grid>
 
-                <Button variant="contained" classes={{root: classes.btn}} onClick={uploadData}>
-                   <Typography classes={{root: classes.btnText}}>
-                      { upload ? "Your data is successfully register" : "Register Now"}
-                    </Typography>
-                </Button>
+                <Grid item>
+                   <Button variant="contained" classes={{root: classes.btn}} onClick={uploadData}>
+                      <Typography classes={{root: classes.btnText}}>
+                         { upload ? "Your data is successfully register" : "Register Now"}
+                      </Typography>
+                    </Button>
+                </Grid>
                 </Grid>
             </Grid>
         </Grid>
