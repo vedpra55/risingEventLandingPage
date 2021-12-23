@@ -18,7 +18,7 @@ const useStyles = makeStyles({
     mainContainer : {
         height: "100%",
         boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-        backgroundImage:'linear-gradient(180deg, #CBBA27 0%, rgba(192, 94, 0, 0.5625) 54.17%, rgba(198, 20, 20, 0) 100%), url(/images/mobile.jpg)',
+        backgroundImage:'linear-gradient(180deg, #CBBA27 0%, rgba(192, 94, 0, 0.5625) 54.17%, rgba(198, 20, 20, 0) 100%), url(/images/mobile.webp)',
         backgroundRepeat:'no-repeat',
         backgroundPosition : "center",
         backgroundSize : "cover",

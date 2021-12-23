@@ -7,14 +7,16 @@ import theme from "../styles/theme"
 const useStyles = makeStyles({
     container: {
         marginBottom: "2rem",
-        margin: "1rem"
+        [theme.breakpoints.down("sm")]: {
+            margin: "1rem"
+        }
     },
     mainContainer: {
         width: "75rem",
         height: "20rem",
         [theme.breakpoints.down("sm")]: {
             width: "100%",
-            height: "auto"
+            height: "auto",
         }
     },
     img: {

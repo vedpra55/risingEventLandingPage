@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   
       height: "100%",
       boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-      backgroundImage:'linear-gradient(243.18deg, #CBBA26 0%, rgba(198, 20, 20, 0) 100%), url(/images/main2.jpg)',
+      backgroundImage:'linear-gradient(243.18deg, #CBBA26 0%, rgba(198, 20, 20, 0) 100%), url(/images/main2.webp)',
       backgroundRepeat:'no-repeat',
       backgroundPosition : "center",
       backgroundSize : "cover",

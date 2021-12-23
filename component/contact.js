@@ -15,7 +15,7 @@ const useStyles = makeStyles({
         marginTop: "2rem",
         marginBottom: "2rem",
         margin: "4.5rem",
-        backgroundImage: "url(/images/contact.jpg)",
+        backgroundImage: "url(/images/contact.webp)",
         backgroundRepeat:'no-repeat',
         backgroundPosition : "center",
         backgroundSize: "cover",
