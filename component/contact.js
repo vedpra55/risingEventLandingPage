@@ -41,7 +41,7 @@ const ContactUs = () => {
     const classes = useStyles()
 
     const data = [
-        {title: "Whatsapp", value: "6203703070",  href:"https://wa.me/6203703070"},
+        {title: "Whatsapp", value: "6203703070",  href:"https://wa.me/+918709553003"},
         {title: "Email" , value: "vedna400@gmail.com"},
         {title: "Address" , value: "Arrah, Bihar 802301"}
     ]
