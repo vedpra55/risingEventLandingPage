@@ -13,8 +13,8 @@ const useStyles = makeStyles({
     container: {
         marginTop: "2rem",
         marginBottom: "2rem",
-        margin: "5rem",
-        backgroundImage: "linear-gradient(275.38deg, #6F2626 4.3%, rgba(96, 0, 17, 0) 94.04%), url(/event.jpg)",
+        margin: "4.5rem",
+        backgroundImage: "linear-gradient(275.38deg, #6F2626 4.3%, rgba(96, 0, 17, 0) 94.04%), url(/images/event.webp)",
         backgroundRepeat:'no-repeat',
         backgroundPosition : "center",
         backgroundSize : "cover",

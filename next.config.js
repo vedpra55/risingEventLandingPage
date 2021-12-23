@@ -1,3 +1,5 @@
+
+
 module.exports = {
   reactStrictMode: true,
   eslint: {
@@ -5,4 +7,5 @@ module.exports = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  
 }

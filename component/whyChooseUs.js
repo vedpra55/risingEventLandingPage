@@ -23,7 +23,7 @@ const useStyles = makeStyles({
         padding: ".6rem"
     },
     heading: {
-        marginTop: "2rem",
+        marginBottom: "2rem",
         fontSize: "1.7rem",
     }
 })
@@ -32,9 +32,9 @@ const WhyChooseUs = () => {
     const classes = useStyles()
 
     const datas =  [
-        {icon:'/trust.png', title: 'We know value of every movement'},
-        {icon:'/affordable.png', title: 'We know value of every movement'},
-        {icon:'/award.png', title:"We know value of every movement we are the best"}
+        {icon:'/images/trust.png', title: 'We know value of every moments'},
+        {icon:'/images/affordable.png', title: 'Most Affordable price in the market '},
+        {icon:'/images/award.png', title:"Professional touch to your event"}
     ]
 
     return (

@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   
       height: "100%",
       boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-      backgroundImage:'linear-gradient(243.18deg, #CBBA26 0%, rgba(198, 20, 20, 0) 100%), url(/main2.jpg)',
+      backgroundImage:'linear-gradient(243.18deg, #CBBA26 0%, rgba(198, 20, 20, 0) 100%), url(/images/main2.jpg)',
       backgroundRepeat:'no-repeat',
       backgroundPosition : "center",
       backgroundSize : "cover",
@@ -126,7 +126,7 @@ const Desktop = () => {
         <Grid item container classes={{root: classes.mainContainer}} direction='column' >
           <Grid item container justifyContent='center'>
             <Grid item>
-              <Image width={220} height={120}  src="/logo.png" alt="logo" />
+              <Image width={220} height={120}  src="/images/logo.png" alt="logo" />
             </Grid>
           </Grid>
 

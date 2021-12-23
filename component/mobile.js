@@ -18,7 +18,7 @@ const useStyles = makeStyles({
     mainContainer : {
         height: "100%",
         boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-        backgroundImage:'linear-gradient(180deg, #CBBA27 0%, rgba(192, 94, 0, 0.5625) 54.17%, rgba(198, 20, 20, 0) 100%), url(/mobile.jpg)',
+        backgroundImage:'linear-gradient(180deg, #CBBA27 0%, rgba(192, 94, 0, 0.5625) 54.17%, rgba(198, 20, 20, 0) 100%), url(/images/mobile.jpg)',
         backgroundRepeat:'no-repeat',
         backgroundPosition : "center",
         backgroundSize : "cover",
@@ -125,7 +125,7 @@ const Mobile = () => {
             <Grid item container>
                 <Grid item container direction="column" justifyContent='center' alignItems="center" >
                 <Grid item>
-                    <Image width={150} height={100} alt="Picture of the author" src="/logo.png" />
+                    <Image width={150} height={100} alt="Picture of the author" src="/images/logo.png" />
                 </Grid>
                 <Grid item>
                     <Typography align="center" classes={{root: classes.heading}}>
