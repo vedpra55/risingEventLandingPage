@@ -148,7 +148,7 @@ const Desktop = () => {
               <input type="name" value={email} onChange={e => setEmail(e.target.value)} className={classes.input} placeholder="email"/>
               <input type="name" value={phone} onChange={e => setPhone(e.target.value)} className={classes.input} placeholder="phone"/>
 
-              <Button variant="contained" classes={{root: classes.btn}} onClick={uploadData}>
+              <Button disabled={!name || !email || !phone} variant="contained" classes={{root: classes.btn}} onClick={uploadData}>
                 <Typography classes={{root: classes.btnText}}>
                   { upload ? "Your data is successfully register" : "Register Now"}
                 </Typography>

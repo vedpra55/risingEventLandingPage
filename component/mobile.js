@@ -13,7 +13,7 @@ const base = new Airtable({apiKey: 'keygsnsZSnGuklxnI'}).base('appbV3RRRv4kdSLXb
 
 const useStyles = makeStyles({
     container: {
-        height:"auto"
+        height:"120vh"
     },
     mainContainer : {
         height: "100%",
@@ -43,6 +43,19 @@ const useStyles = makeStyles({
         paddingTop: "1.5rem",
         fontSize : "1.4rem"
     },
+    btn: {
+      marginTop: "1.5rem",
+      marginBottom: "1rem",
+      width:"15rem",
+      height: "3rem",
+      backgroundColor: "black",
+      "&:hover": {
+        backgroundColor: "grey"
+      }
+    },
+    btnText: {
+      color: "white"
+    },
     input : {
         marginTop: "1.5rem",
         width: "15rem",
@@ -64,19 +77,6 @@ const useStyles = makeStyles({
             fontSize: "1.5rem"
         },
     },
-    btn: {
-        marginTop: "1.5rem",
-        marginBottom: "1rem",
-        width:"15rem",
-        height: "3rem",
-        backgroundColor: "black",
-        "&:hover": {
-          backgroundColor: "grey"
-        }
-      },
-      btnText: {
-        color: "white"
-      },
 })
 
 const Mobile = () => {
@@ -153,9 +153,9 @@ const Mobile = () => {
                 </Grid>
 
                 <Grid item>
-                   <Button variant="contained" classes={{root: classes.btn}} onClick={uploadData}>
+                   <Button disabled={!name || !email || !phone} variant="contained" classes={{root: classes.btn}} onClick={uploadData}>
                       <Typography classes={{root: classes.btnText}}>
-                         { upload ? "Your data is successfully register" : "Register Now"}
+                         { upload ? "successfully register" : "Register Now"}
                       </Typography>
                     </Button>
                 </Grid>
