@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import { isMobile } from "react-device-detect";
 
 
@@ -12,14 +10,8 @@ import ComingSoonCard from "../component/comingSoonCard"
 import OurServices from '../component/ourServices';
 import ContactUs from '../component/contact'
 
-import { useEffect, useState } from 'react';
 
 export default function Home() {
-  const [isMount, setMount] = useState(false)
-
-  useEffect(() => {
-    setMount(true)
-  }, [])
 
   return (
     <div>
